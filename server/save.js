@@ -29,7 +29,7 @@ async function saveSubmission(submission) {
     // Create directory for the problem if it doesn't exist
     // E.g., submissions/two-sum/
     const folderName = submission.slug || submission.title.toLowerCase().replace(/ /g, '-');
-    const dirPath = path.join(__dirname, 'submissions', folderName);
+    const dirPath = path.join(__dirname, '..', 'submissions', folderName);
     
     await fs.mkdir(dirPath, { recursive: true });
     

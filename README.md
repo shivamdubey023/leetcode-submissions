@@ -54,7 +54,7 @@ The server will start listening on `http://localhost:4000`.
 2. Go to [LeetCode](https://leetcode.com) and solve a problem.
 3. Click **Submit**.
 4. If your solution is **Accepted**, the extension will automatically send the code to your local server.
-5. The local server will save the code to the `server/submissions/` folder and push it to your Git repository!
+5. The local server will save the code to the `submissions/` folder in your project root and push it to your Git repository!
 
 ## Troubleshooting
 
