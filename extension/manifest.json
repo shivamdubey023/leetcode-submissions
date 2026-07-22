@@ -4,6 +4,12 @@
   "description": "Automatically sync accepted LeetCode solutions to GitHub.",
   "version": "1.0.0",
 
+  "icons": {
+    "16": "icons/16x16.png",
+    "48": "icons/48x48.png",
+    "128": "icons/128x128.png"
+  },
+
   "permissions": [
     "storage",
     "tabs",
@@ -21,7 +27,12 @@
 
   "action": {
     "default_popup": "popup.html",
-    "default_title": "LeetSync"
+    "default_title": "LeetSync",
+    "default_icon": {
+      "16": "icons/16x16.png",
+      "48": "icons/48x48.png",
+      "128": "icons/128x128.png"
+    }
   },
 
   "content_scripts": [
